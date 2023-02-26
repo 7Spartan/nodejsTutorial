@@ -1,3 +1,7 @@
 20230220	21:53:56	a54ace82-eb69-42a2-92eb-ffd2d3ef6c51	Error: Not allowed by CORS
 20230220	22:04:20	7c61d7d8-cf2f-47ca-acfc-cb29fa7223de	Error: Not allowed by CORS
 20230220	22:19:04	08d88aa7-9cb1-4170-bf84-9a5c4bf6b7d7	Error: ENOENT: no such file or directory, stat 'D:\Projects\nodejs_Tutorials\views\subdir\index.html'
+20230225	19:42:02	a3f36167-6804-40b7-848a-e9320d2f5b21	SyntaxError: Unexpected token ' in JSON at position 4
+20230225	20:14:02	74ff60e9-710f-42a2-a0fe-fbadfdb0b07b	TypeError: Cannot read properties of undefined (reading 'id')
+20230225	20:14:15	9229b0ea-7448-4566-90be-aa34c241deea	TypeError: Cannot read properties of undefined (reading 'id')
+20230225	20:15:37	3744efeb-ecfe-43e8-bba6-5263baf3dbbd	TypeError: Cannot read properties of undefined (reading 'id')
