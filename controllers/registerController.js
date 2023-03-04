@@ -6,7 +6,7 @@ const usersDB = {
 const fsPromises = require('fs').promises;
 const path = require('path');
 const bcrypt = require('bcrypt');
-const { json } = require('express');
+
 let saltRound = 10;
 
 
@@ -17,10 +17,10 @@ const handleNewUser = async(req,res) =>{
     const duplicate =  usersDB.users.find(person=>person.username === user);
     if(duplicate) return res.sendStatus(409); // status code stands for conflict
     try{
-        //encrypt the password
+        //encrypt the pwd
         const hashedpwd = await bcrypt.hash(pwd,saltRound);
         //store the new user
-        const NewUser = {"username":user,"password":hashedpwd};
+        const NewUser = {"username":user,"pwd":hashedpwd};
         usersDB.setUsers([...usersDB.users,NewUser]);
         await fsPromises.writeFile(
             path.join(__dirname,'..','model','users.json'),
