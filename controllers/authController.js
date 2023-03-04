@@ -42,10 +42,9 @@ const handleLogin = async(req,res)=>{
             JSON.stringify(usersDB.users)
         );
         // http only cookie is not available to js. Hence, much secure
-        res.cookie('jwt', refreshToken,{ httpOnly: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 100});
-        //If using Chrome, use the following cookie. This change needs to be reflected in clearing the cookies after logout too.
-        // res.cookie('jwt', refreshToken,{ httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 100});
-        
+        res.cookie('jwt', refreshToken,{ httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 100});
+        // If using thunderclinet to test the refresh token, remove the secure attribute from the cookie
+        // res.cookie('jwt', refreshToken,{ httpOnly: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 100});
         res.json({ accessToken });
     }else{
         res.sendStatus(401);
