@@ -17,11 +17,16 @@ const handleLogin = async(req,res)=>{
     // evaluate password
     const match = await bcrypt.compare(pwd, foundUser.password);
     if(match){
+        const roles = Object.values(foundUser.roles);
         // create JWTs (JSON web token)
         const accessToken = jwt.sign(
-            {"username":foundUser.username },
+            {"UserInfo":{
+                "username":foundUser.username,
+                "roles": roles
+                }
+            },
             process.env.ACCESS_TOKEN_SECRET,
-            {expiresIn:'30s'}
+            {expiresIn:'60s'}
         );
         const refreshToken = jwt.sign(
             {"username":foundUser.username },
@@ -38,6 +43,9 @@ const handleLogin = async(req,res)=>{
         );
         // http only cookie is not available to js. Hence, much secure
         res.cookie('jwt', refreshToken,{ httpOnly: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 100});
+        //If using Chrome, use the following cookie. This change needs to be reflected in clearing the cookies after logout too.
+        // res.cookie('jwt', refreshToken,{ httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 100});
+        
         res.json({ accessToken });
     }else{
         res.sendStatus(401);
