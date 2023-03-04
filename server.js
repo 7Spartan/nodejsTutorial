@@ -7,10 +7,14 @@ const errorHandler = require('./middleware/errorHandler');
 const corsOptions = require('./config/corsOptions');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
+const credentials = require('./middleware/credentials');
 const PORT = process.env.PORT || 3500;
 
 // Custom middleware logger
 app.use(logger);
+
+// credentials js contains setting the header for CORS to be true
+app.use(credentials);
 
 // cors - cross origin resource sharing
 app.use(cors(corsOptions));
@@ -20,7 +24,6 @@ app.use(express.urlencoded({extended: false}));
 
 // built-in middleware for json
 app.use(express.json());
-
 
 //middleware for cookies
 app.use(cookieParser());
