@@ -5,3 +5,8 @@
 20230225	20:14:02	74ff60e9-710f-42a2-a0fe-fbadfdb0b07b	TypeError: Cannot read properties of undefined (reading 'id')
 20230225	20:14:15	9229b0ea-7448-4566-90be-aa34c241deea	TypeError: Cannot read properties of undefined (reading 'id')
 20230225	20:15:37	3744efeb-ecfe-43e8-bba6-5263baf3dbbd	TypeError: Cannot read properties of undefined (reading 'id')
+20230303	23:39:08	f157aee6-fd64-4c93-96e5-ae8d06857e00	ReferenceError: authorization is not defined
+20230303	23:39:29	da1b415f-5c5f-4442-aafe-f88c417bf419	ReferenceError: authorization is not defined
+20230303	23:40:02	765e748a-89a0-4a9c-8fe0-68f48039327a	ReferenceError: authorization is not defined
+20230303	23:40:14	8ffbcbd6-7910-48e2-87c4-55abbba66136	ReferenceError: authorization is not defined
+20230303	23:40:40	9479d0c1-bd45-43c2-822c-7a185f75e7c2	ReferenceError: authorization is not defined
