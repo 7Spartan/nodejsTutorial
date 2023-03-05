@@ -7,9 +7,10 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
     "uuid": "^9.0.0"
   },
-  "name": "Chap11_JWT_Auth",
+  "name": "Chap13_Mongo",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
