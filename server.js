@@ -47,6 +47,8 @@ app.use('/logout',require('./routes/logout'));
 // Everything after the verifyJWT middlewear will need authentication
 app.use(verifyJWT);
 app.use('/employees',require('./routes/api/employees')) //doesn't need any static files since it is sending only data
+app.use('/users',require('./routes/api/users')) //doesn't need any static files since it is sending only data
+
 
 app.all('*',(req,res)=>{
     res.status(404);
