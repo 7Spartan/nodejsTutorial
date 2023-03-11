@@ -1,3 +1,13 @@
 20230220	21:53:56	a54ace82-eb69-42a2-92eb-ffd2d3ef6c51	Error: Not allowed by CORS
 20230220	22:04:20	7c61d7d8-cf2f-47ca-acfc-cb29fa7223de	Error: Not allowed by CORS
 20230220	22:19:04	08d88aa7-9cb1-4170-bf84-9a5c4bf6b7d7	Error: ENOENT: no such file or directory, stat 'D:\Projects\nodejs_Tutorials\views\subdir\index.html'
+20230225	19:42:02	a3f36167-6804-40b7-848a-e9320d2f5b21	SyntaxError: Unexpected token ' in JSON at position 4
+20230225	20:14:02	74ff60e9-710f-42a2-a0fe-fbadfdb0b07b	TypeError: Cannot read properties of undefined (reading 'id')
+20230225	20:14:15	9229b0ea-7448-4566-90be-aa34c241deea	TypeError: Cannot read properties of undefined (reading 'id')
+20230225	20:15:37	3744efeb-ecfe-43e8-bba6-5263baf3dbbd	TypeError: Cannot read properties of undefined (reading 'id')
+20230303	23:39:08	f157aee6-fd64-4c93-96e5-ae8d06857e00	ReferenceError: authorization is not defined
+20230303	23:39:29	da1b415f-5c5f-4442-aafe-f88c417bf419	ReferenceError: authorization is not defined
+20230303	23:40:02	765e748a-89a0-4a9c-8fe0-68f48039327a	ReferenceError: authorization is not defined
+20230303	23:40:14	8ffbcbd6-7910-48e2-87c4-55abbba66136	ReferenceError: authorization is not defined
+20230303	23:40:40	9479d0c1-bd45-43c2-822c-7a185f75e7c2	ReferenceError: authorization is not defined
+20230304	00:43:26	e9529ac4-0458-4637-a043-914e4898807f	SyntaxError: Unexpected token e in JSON at position 0

@@ -1,0 +1,53 @@
+[
+    {
+        "username": "aa4",
+        "roles": {
+            "User": 2001
+        },
+        "password": "$2b$10$ZZ/4KlXe5VonZu5wsuIGxeTENfWSvBR1brQkLPu7adLNB7I0FsMue",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhNCIsImlhdCI6MTY3Nzk2MjQ3NiwiZXhwIjoxNjc4MDQ4ODc2fQ.JgYmhvtEsnpcnQg_dVzuVwZJoF5FN7mXXlCRkn949S4"
+    },
+    {
+        "username": "aa5",
+        "roles": {
+            "User": 2001
+        },
+        "password": "$2b$10$HVJA638lu2e2iUxL1i2Sj.Jfi7Rxh1baCWe6K0bZdZarqFKt6SP/a",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhNSIsImlhdCI6MTY3Nzk2MzgxNywiZXhwIjoxNjc4MDUwMjE3fQ.1Rku57agj4SA7MNujkimCel4cWs1thXxcFSNkyozCWw"
+    },
+    {
+        "username": "aa6",
+        "roles": {
+            "User": 2001
+        },
+        "password": "$2b$10$p3bIU61VGs2kE2BJ7dYy4ub61s0nkolF3ASAanJq3.WeoU6zPG7M.",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhNiIsImlhdCI6MTY3Nzk3MTIyNiwiZXhwIjoxNjc4MDU3NjI2fQ.WHjYrcfevxh4Sk-ibjfCetTmLTZJzc1jA7bMyETZPik"
+    },
+    {
+        "username": "aa2",
+        "roles": {
+            "User": 2001,
+            "Editor": 1984
+        },
+        "password": "$2b$10$7mTT.rcGlWZbZ7t9M78gvOq3g40l3q6XbV59vLsip6ZIauflwlgkO",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhMiIsImlhdCI6MTY3Nzk3MTg2NSwiZXhwIjoxNjc4MDU4MjY1fQ.0t5UjGh11JHPf2wL9b3u6IalexksV6dYK3wFhdBh_uw"
+    },
+    {
+        "username": "aa3",
+        "roles": {
+            "User": 2001
+        },
+        "password": "$2b$10$NWdbdzwqk5lZb0ULaH4EmulTb7ql2fBsK4M3.t7nLPPDQuQvcplNi",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhMyIsImlhdCI6MTY3Nzk3MTg5MSwiZXhwIjoxNjc4MDU4MjkxfQ.QI4Nk7N5-zcfM7kcC9HXafHhJNyuGqxt5rwB0VH5S4E"
+    },
+    {
+        "username": "aa1",
+        "roles": {
+            "User": 2001,
+            "Editor": 1984,
+            "Admin": 5150
+        },
+        "password": "$2b$10$puosfcpQgC/hpy27EH802.yoecptw8vi7lXzRQHhixndmpSyKesHO",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFhMSIsImlhdCI6MTY3Nzk3MjkzMSwiZXhwIjoxNjc4MDU5MzMxfQ.uom2msKyz8fOPEJzBYu1Ke0aVQyhMzAYb1TicWn4Ppo"
+    }
+]
